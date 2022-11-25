@@ -1,0 +1,43 @@
+.gridRightTop {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 90%);
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 50%);
+        border-left: 1px solid rgba(255, 255, 255, 0.72);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.72);
+    }
+}
+
+.gridRightBottom {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 90%);
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 50%);
+        border-top: 1px solid rgba(255, 255, 255, 0.72);
+        border-left: 1px solid rgba(255, 255, 255, 0.72);
+    }
+}
+
+.gridLeftTop {
+    background: linear-gradient(320deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 90%);
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(320deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 49.77%);
+        border-right: 1px solid rgba(255, 255, 255, 0.72);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.72);
+    }
+}
+
+.gridLeftBottom {
+    background: linear-gradient(220deg, rgba(255, 255, 255, 0.06) -0.47%, rgba(255, 255, 255, 0) 90%);
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(220deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 41.73%);
+        border-right: 1px solid rgba(255, 255, 255, 0.72);
+        border-top: 1px solid rgba(255, 255, 255, 0.72);
+    }
+}

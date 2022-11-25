@@ -1,0 +1,50 @@
+.hero {
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    display: block;
+    position: relative;
+}
+
+.mars {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 520px;
+    height: 520px;
+}
+
+.line {
+    display: block;
+    position: absolute;
+    transform: translate(220px, 540px);
+    width: 550px;
+
+    @media not all and (min-width: 1536px) {
+        transform: translate(220px, 545px);
+        width: 420px;
+    }
+
+    @media not all and (min-width: 1280px) {
+        transform: translate(220px, 575px);
+        width: 290px;
+    }
+
+    @media not all and (min-width: 1024px) {
+        transform: translate(220px, 585px);
+        width: 162px;
+    }
+
+    @media not all and (min-width: 768px) {
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.navbar {
+    position: relative;
+    transition: 0.4s;
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 90%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.16);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.4s;
+    }
+
+    &:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.48);
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+
+.line {
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.16);
+    border-bottom-width: 1px;
+}
