@@ -1,13 +1,13 @@
 .hero {
     background-image: url(../../assets/bg.jpg);
+    // background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-width: 100%;
-    min-height: 100%;
+    max-height: 100vh;
     position: relative;
     display: block;
-    position: relative;
 }
 
 .mars {
@@ -19,29 +19,55 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    width: 520px;
-    height: 520px;
+    width: 32em;
+    max-height: 32em;
 }
 
 .line {
     display: block;
     position: absolute;
-    transform: translate(220px, 540px);
-    width: 550px;
+    left: 50%;
+    transform: translate(-100%, 135%);
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 34em;
 
     @media not all and (min-width: 1536px) {
-        transform: translate(220px, 545px);
-        width: 420px;
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-100%, 195%);
+        top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        width: 26em;
     }
 
     @media not all and (min-width: 1280px) {
-        transform: translate(220px, 575px);
-        width: 290px;
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-100%, 320%);
+        top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        width: 18em;
     }
 
     @media not all and (min-width: 1024px) {
-        transform: translate(220px, 585px);
-        width: 162px;
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-100%, 530%);
+        top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        width: 12em;
     }
 
     @media not all and (min-width: 768px) {

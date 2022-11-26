@@ -11,12 +11,12 @@ const Hero = () => {
                 <div className=''>
                     <img src={Mars} alt="" className={`${style.mars} z-20`} />
                 </div>
-                <div>
-                    <img src={Line} alt="" className={`${style.line}`}/>
+                <div className=''>
+                    <img src={Line} alt="" className={`${style.line} z-30`} />
                 </div>
                 <div className='flex justify-between items-center h-screen w-full'>
                     <div className='inline-block my-[50vh] md:flex md:my-0 md:justify-between items-center w-full'>
-                        <div className='mb-[120px] md:mb-0 z-50 2xl:z-10' >
+                        <div className='mb-[80px] md:mb-0 z-50 2xl:z-10' >
                             <MainText />
                         </div>
                         <Squares />
